@@ -1,0 +1,12 @@
+baseURL = "http://aenrione.xyz/"
+languageCode = "en-us"
+title = "Alfredo Enrione"
+theme = "m10c"
+
+[params]
+author = "Alfedo Enrione"
+description = "Estudiante de ingenieria en computación"
+[[params.social]]
+  icon = "github"
+  name = "Github"
+  url = "https://github.com/aenrione"
