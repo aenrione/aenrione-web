@@ -3,6 +3,16 @@ languageCode = "en-us"
 title = "Alfredo Enrione"
 theme = "m10c"
 
+[menu]
+[[menu.main]]
+  identifier = "home"
+  name = "Inicio"
+  url = "/"
+[[menu.main]]
+  identifier = "tags"
+  name = "Categorías"
+  url = "/tags/"
+
 [params]
 author = "Alfedo Enrione"
 description = "Estudiante de ingenieria en computación"
