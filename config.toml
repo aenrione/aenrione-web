@@ -2,16 +2,21 @@ baseURL = "http://aenrione.xyz/"
 languageCode = "en-us"
 title = "Alfredo Enrione"
 theme = "m10c"
+staticDir = 'static'
 
 [menu]
 [[menu.main]]
   identifier = "home"
-  name = "Inicio"
+  name = "Home"
   url = "/"
 [[menu.main]]
   identifier = "tags"
-  name = "Categorías"
+  name = "Tags"
   url = "/tags/"
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
 
 [params]
 author = "Alfedo Enrione"
@@ -20,3 +25,19 @@ description = "Estudiante de ingenieria en computación"
   icon = "github"
   name = "Github"
   url = "https://github.com/aenrione"
+[[params.social]]
+  icon = "mail"
+  name = "Email"
+  url = "mailto:aenrione@uc.cl"
+[[params.social]]
+  icon = "linkedin"
+  name = "Linkedin"
+  url = "https://www.linkedin.com/in/aenrione/"
+
+  # Default theme
+  [params.style]
+    darkestColor = "#242930"
+    darkColor = "#353b43"
+    lightColor = "#afbac4"
+    lightestColor = "#ffffff"
+    primaryColor = "#00bcd4"
