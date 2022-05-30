@@ -1,43 +1,54 @@
 baseURL = "http://aenrione.xyz/"
-languageCode = "en-us"
+languageCode = "es-CL"
 title = "Alfredo Enrione"
 theme = "m10c"
 staticDir = 'static'
+# defaultContentLanguageInSubdir = true
+
+# DefaultContentLanguage = "en"
+# [languages]
+# [languages.en]
+# languageName = "English"
+# weight = 1
+# [languages.es]
+# languageName = "Spanish"
+# weight = 2
 
 [menu]
 [[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 30
 [[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
 [[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
+identifier = "about"
+name = "About"
+url = "/about/"
 
 [params]
 author = "Alfedo Enrione"
 description = "Estudiante de ingenieria en computación"
 [[params.social]]
-  icon = "github"
-  name = "Github"
-  url = "https://github.com/aenrione"
+icon = "github"
+name = "Github"
+url = "https://github.com/aenrione"
 [[params.social]]
-  icon = "mail"
-  name = "Email"
-  url = "mailto:aenrione@uc.cl"
+icon = "mail"
+name = "Email"
+url = "mailto:aenrione@uc.cl"
 [[params.social]]
-  icon = "linkedin"
-  name = "Linkedin"
-  url = "https://www.linkedin.com/in/aenrione/"
+icon = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/in/aenrione/"
 
-  # Default theme
-  [params.style]
-    darkestColor = "#242930"
-    darkColor = "#353b43"
-    lightColor = "#afbac4"
-    lightestColor = "#ffffff"
-    primaryColor = "#00bcd4"
+# Default theme
+[params.style]
+darkestColor = "#242930"
+darkColor = "#353b43"
+lightColor = "#afbac4"
+lightestColor = "#ffffff"
+primaryColor = "#00bcd4"
