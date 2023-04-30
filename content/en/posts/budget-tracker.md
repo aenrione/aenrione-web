@@ -2,6 +2,8 @@
 title: "Budget Tracking my finance"
 date: 2022-05-30T12:25:38-04:00
 draft: false
+language: "en"
+Lang: en
 tags:
 - React-Native
 - Ruby-on-Rails

@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="githubProjects">
+  <h2>{{ .Title }}</h2>
+  <p>{{ .Content }}</p>
+  <div class="project-cards">
+    {{ range .Site.Data.githubProjects }}
+    <div class="project-card">
+      <h3 class="project-title">{{ .name }}</h3>
+      <p class="project-description">{{ .description }}</p>
+      <a class="project-link" href="{{ .url }}">View on GitHub</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<style>
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.project-card {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.project-title {
+  margin-top: 0;
+}
+
+.project-link {
+  display: block;
+  margin-top: 20px;
+}
+
+</style>
+{{ end }}

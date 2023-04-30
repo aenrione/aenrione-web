@@ -5,33 +5,69 @@ theme = "m10c"
 staticDir = 'static'
 # defaultContentLanguageInSubdir = true
 
-# DefaultContentLanguage = "en"
-# [languages]
-# [languages.en]
-# languageName = "English"
-# weight = 1
-# [languages.es]
-# languageName = "Spanish"
-# weight = 2
+defaultContentLanguage = "es"
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 2
+  [languages.es]
+    languageName = "Español"
+    weight = 1
 
 [menu]
 [[menu.main]]
 identifier = "home"
-name = "Home"
+name = "Inicio"
 url = "/"
-weight = 30
+weight = 1
 [[menu.main]]
 identifier = "tags"
-name = "Tags"
+name = "Categorías"
 url = "/tags/"
+weight = 4
 [[menu.main]]
 identifier = "about"
-name = "About"
+name = "Acerca de mi"
 url = "/about/"
+weight = 3
+[[menu.main]]
+name = "Proyectos"
+url = "/githubProjects/"
+weight = 2
+[[menu.main]]
+name = "English Site"
+url = "/en"
+weight = 5
+
+[[menu.en]]
+identifier = "home"
+name = "Home"
+url = "/en"
+weight = 1
+[[menu.en]]
+identifier = "tags"
+name = "Tags"
+url = "/en/tags/"
+weight = 4
+[[menu.en]]
+identifier = "about"
+name = "About"
+url = "/en/about/"
+weight = 3
+[[menu.en]]
+name = "Projects"
+url = "/en/githubProjects/"
+weight = 2
+[[menu.en]]
+name = "Sitio Español"
+url = "/"
+weight = 5
 
 [params]
-author = "Alfedo Enrione"
+author = "Alfredo Enrione"
 description = "Estudiante de ingenieria en computación"
+descriptionEN = "Computer Engineer"
 [[params.social]]
 icon = "github"
 name = "Github"
