@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     {{ hugo.Generator }}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="{{ .Site.Params.author | default "John Doe" }}" />
+    <meta name="author" content="{{ .Site.Params.author | default "Alfredo Enrione" }}" />
     <meta name="description" content="{{ if .IsHome }}{{ if eq .Site.Language.Lang "es" }}{{ .Site.Params.description }}{{else}}{{ .Site.Params.descriptionEN }}{{end}}{{ else }}{{ .Description }}{{ end }}" />
     {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
@@ -19,7 +19,7 @@
   <body>
     <header class="app-header">
     {{ if eq .Site.Language.Lang "es" }}
-      <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>
+      <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "Alfredo Enrione" }}" /></a>
       <h1>{{ .Site.Title }}</h1>
       {{- with .Site.Menus.main }}
       <nav class="app-header-menu">
@@ -42,7 +42,7 @@
       </div>
       {{- end }}
     {{ else }}
-      <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>
+      <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "Alfredo Enrione" }}" /></a>
       <h1>{{ .Site.Title }}</h1>
       {{- with .Site.Menus.en }}
       <nav class="app-header-menu">

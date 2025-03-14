@@ -17,9 +17,9 @@
           </span>
         </li>
       {{ end }}
+    {{ end }}
     </ul>
     {{ partial "pagination.html" $ }}
-      {{end}}
     {{else}}
       {{ range where .Paginator.Pages "Type" "!=" "page" }}
         <li class="posts-list-item">
@@ -38,3 +38,4 @@
     {{end}}
   </article>
 {{ end }}
+

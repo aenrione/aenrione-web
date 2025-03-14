@@ -5,7 +5,6 @@ layout: github-project-list
 ---
 
 ---
-Here are some of my Github projects:
-
+Aquí hay algunos de mis proyectos de Github:
 
 

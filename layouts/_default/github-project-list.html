@@ -7,7 +7,9 @@
     <div class="project-card">
       <h3 class="project-title">{{ .name }}</h3>
       <p class="project-description">{{ .description }}</p>
-      <a class="project-link" href="{{ .url }}">View on GitHub</a>
+      <a class="project-link" href="{{ .html_url }}"
+        target="_blank" rel="noopener noreferrer"
+      >View on GitHub</a>
     </div>
     {{ end }}
   </div>
@@ -40,3 +42,4 @@
 
 </style>
 {{ end }}
+

@@ -13,6 +13,7 @@ defaultContentLanguage = "es"
     weight = 2
   [languages.es]
     languageName = "Español"
+    contentDir = "content/es"
     weight = 1
 
 [menu]
@@ -67,7 +68,7 @@ weight = 5
 [params]
 author = "Alfredo Enrione"
 description = "Estudiante de ingenieria en computación"
-descriptionEN = "Computer Engineer"
+descriptionEN = "Computer Engineer Student"
 [[params.social]]
 icon = "github"
 name = "Github"
@@ -75,7 +76,7 @@ url = "https://github.com/aenrione"
 [[params.social]]
 icon = "mail"
 name = "Email"
-url = "mailto:aenrione@uc.cl"
+url = "mailto:aenrione@aenrione.xyz"
 [[params.social]]
 icon = "linkedin"
 name = "Linkedin"

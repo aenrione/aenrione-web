@@ -1,800 +1,127 @@
+---
 -
-    id: 415733293
-    node_id: R_kgDOGMeWLQ
     name: aenrione-web
-    full_name: aenrione/aenrione-web
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/aenrione-web'
-    description: 'This Site!'
-    fork: false
-    url: 'https://api.github.com/repos/aenrione/aenrione-web'
-    forks_url: 'https://api.github.com/repos/aenrione/aenrione-web/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/aenrione-web/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/aenrione-web/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/aenrione-web/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/aenrione-web/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/aenrione-web/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/aenrione-web/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/aenrione-web/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/aenrione-web/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/aenrione-web/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/aenrione-web/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/aenrione-web/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/aenrione-web/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/aenrione-web/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/aenrione-web/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/aenrione-web/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/aenrione-web/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/aenrione-web/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/aenrione-web/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/aenrione-web/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/aenrione-web/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/aenrione-web/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/aenrione-web/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/aenrione-web/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/aenrione-web/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/aenrione-web/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/aenrione-web/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/aenrione-web/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/aenrione-web/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/aenrione-web/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/aenrione-web/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/aenrione-web/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/aenrione-web/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/aenrione-web/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/aenrione-web/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/aenrione-web/deployments'
-    created_at: '2021-10-11T00:33:07Z'
-    updated_at: '2022-06-02T15:32:56Z'
-    pushed_at: '2022-05-30T17:16:54Z'
-    git_url: 'git://github.com/aenrione/aenrione-web.git'
-    ssh_url: 'git@github.com:aenrione/aenrione-web.git'
-    clone_url: 'https://github.com/aenrione/aenrione-web.git'
-    svn_url: 'https://github.com/aenrione/aenrione-web'
-    homepage: 'https://aenrione.xyz'
-    size: 67
-    stargazers_count: 0
-    watchers_count: 0
-    language: null
-    has_issues: true
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: []
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: master
+    description: About Personal page to showcase social information, repositories, etc. Made in Hugo
+    html_url: https://github.com/aenrione/aenrione-web
+    url: https://api.github.com/repos/aenrione/aenrione-web
+
 -
-    id: 452427140
-    node_id: R_kgDOGvd9hA
+    name: aurora-assets-electron
+    description: A Cross-Platform Alternative for AuroraAssetsEditor made with Electron
+    html_url: https://github.com/aenrione/aurora-assets-electron
+    url: https://api.github.com/repos/aenrione/aurora-assets-electron
+
+-
+    name: AuroraAssetEditor
+    description: A Graphical editor for Aurora's .asset files
+    html_url: https://github.com/aenrione/AuroraAssetEditor
+    url: https://api.github.com/repos/aenrione/AuroraAssetEditor
+
+-
+    name: bip-nfc-arduino
+    description: Chile, Tarjeta BIP RFID reader
+    html_url: https://github.com/aenrione/bip-nfc-arduino
+    url: https://api.github.com/repos/aenrione/bip-nfc-arduino
+
+-
     name: buda
-    full_name: aenrione/buda
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/buda'
-    description: 'A Ruby client for Buda.com Api interface'
-    fork: false
-    url: 'https://api.github.com/repos/aenrione/buda'
-    forks_url: 'https://api.github.com/repos/aenrione/buda/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/buda/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/buda/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/buda/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/buda/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/buda/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/buda/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/buda/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/buda/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/buda/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/buda/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/buda/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/buda/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/buda/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/buda/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/buda/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/buda/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/buda/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/buda/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/buda/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/buda/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/buda/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/buda/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/buda/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/buda/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/buda/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/buda/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/buda/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/buda/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/buda/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/buda/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/buda/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/buda/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/buda/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/buda/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/buda/deployments'
-    created_at: '2022-01-26T20:19:28Z'
-    updated_at: '2022-01-26T20:19:56Z'
-    pushed_at: '2022-05-01T02:32:40Z'
-    git_url: 'git://github.com/aenrione/buda.git'
-    ssh_url: 'git@github.com:aenrione/buda.git'
-    clone_url: 'https://github.com/aenrione/buda.git'
-    svn_url: 'https://github.com/aenrione/buda'
-    homepage: null
-    size: 11
-    stargazers_count: 0
-    watchers_count: 0
-    language: Ruby
-    has_issues: true
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: []
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: main
+    description: A Ruby client for Buda.com Api interface
+    html_url: https://github.com/aenrione/buda
+    url: https://api.github.com/repos/aenrione/buda
+
 -
-    id: 450602810
-    node_id: R_kgDOGtunOg
     name: budget-tracker-rails
-    full_name: aenrione/budget-tracker-rails
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/budget-tracker-rails'
-    description: 'API interface for possible financial apps'
-    fork: false
-    url: 'https://api.github.com/repos/aenrione/budget-tracker-rails'
-    forks_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/budget-tracker-rails/deployments'
-    created_at: '2022-01-21T18:40:46Z'
-    updated_at: '2022-06-02T15:32:40Z'
-    pushed_at: '2023-03-11T22:34:24Z'
-    git_url: 'git://github.com/aenrione/budget-tracker-rails.git'
-    ssh_url: 'git@github.com:aenrione/budget-tracker-rails.git'
-    clone_url: 'https://github.com/aenrione/budget-tracker-rails.git'
-    svn_url: 'https://github.com/aenrione/budget-tracker-rails'
-    homepage: 'https://api.aenrione.xyz'
-    size: 405
-    stargazers_count: 0
-    watchers_count: 0
-    language: Ruby
-    has_issues: true
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: [rails, ruby]
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: master
+    description: API interface for possible financial apps
+    html_url: https://github.com/aenrione/budget-tracker-rails
+    url: https://api.github.com/repos/aenrione/budget-tracker-rails
+
 -
-    id: 450961485
-    node_id: R_kgDOGuEgTQ
     name: budget-tracker-react
-    full_name: aenrione/budget-tracker-react
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/budget-tracker-react'
-    description: 'React Native Frontend for budget tracker'
-    fork: false
-    url: 'https://api.github.com/repos/aenrione/budget-tracker-react'
-    forks_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/budget-tracker-react/deployments'
-    created_at: '2022-01-22T23:37:16Z'
-    updated_at: '2022-05-30T14:20:05Z'
-    pushed_at: '2023-03-18T20:41:22Z'
-    git_url: 'git://github.com/aenrione/budget-tracker-react.git'
-    ssh_url: 'git@github.com:aenrione/budget-tracker-react.git'
-    clone_url: 'https://github.com/aenrione/budget-tracker-react.git'
-    svn_url: 'https://github.com/aenrione/budget-tracker-react'
-    homepage: null
-    size: 5832
-    stargazers_count: 0
-    watchers_count: 0
-    language: JavaScript
-    has_issues: true
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: []
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: master
+    description: React Native Frontend for budget tracker
+    html_url: https://github.com/aenrione/budget-tracker-react
+    url: https://api.github.com/repos/aenrione/budget-tracker-react
+
 -
-    id: 376677661
-    node_id: MDEwOlJlcG9zaXRvcnkzNzY2Nzc2NjE=
+    name: canvas-stream
+    description: A smart and small python module for downloading the current favorite courses files from Canvas-LMS.
+    html_url: https://github.com/aenrione/canvas-stream
+    url: https://api.github.com/repos/aenrione/canvas-stream
+
+-
     name: dotFiles
-    full_name: aenrione/dotFiles
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/dotFiles'
-    description: 'All dot files and configurations'
-    fork: false
-    url: 'https://api.github.com/repos/aenrione/dotFiles'
-    forks_url: 'https://api.github.com/repos/aenrione/dotFiles/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/dotFiles/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/dotFiles/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/dotFiles/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/dotFiles/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/dotFiles/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/dotFiles/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/dotFiles/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/dotFiles/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/dotFiles/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/dotFiles/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/dotFiles/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/dotFiles/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/dotFiles/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/dotFiles/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/dotFiles/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/dotFiles/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/dotFiles/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/dotFiles/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/dotFiles/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/dotFiles/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/dotFiles/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/dotFiles/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/dotFiles/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/dotFiles/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/dotFiles/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/dotFiles/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/dotFiles/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/dotFiles/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/dotFiles/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/dotFiles/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/dotFiles/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/dotFiles/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/dotFiles/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/dotFiles/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/dotFiles/deployments'
-    created_at: '2021-06-14T01:49:18Z'
-    updated_at: '2022-07-10T02:28:23Z'
-    pushed_at: '2022-07-11T16:56:50Z'
-    git_url: 'git://github.com/aenrione/dotFiles.git'
-    ssh_url: 'git@github.com:aenrione/dotFiles.git'
-    clone_url: 'https://github.com/aenrione/dotFiles.git'
-    svn_url: 'https://github.com/aenrione/dotFiles'
-    homepage: null
-    size: 500
-    stargazers_count: 0
-    watchers_count: 0
-    language: 'Vim script'
-    has_issues: true
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: []
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: main
+    description: All dot files and configurations
+    html_url: https://github.com/aenrione/dotFiles
+    url: https://api.github.com/repos/aenrione/dotFiles
+
 -
-    id: 416417558
-    node_id: R_kgDOGNIHFg
     name: finance-tracker-bots
-    full_name: aenrione/finance-tracker-bots
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/finance-tracker-bots'
-    description: 'Different Types of tools I use for managing my financial information'
-    fork: false
-    url: 'https://api.github.com/repos/aenrione/finance-tracker-bots'
-    forks_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/finance-tracker-bots/deployments'
-    created_at: '2021-10-12T16:37:59Z'
-    updated_at: '2021-11-04T15:45:31Z'
-    pushed_at: '2021-11-04T15:45:28Z'
-    git_url: 'git://github.com/aenrione/finance-tracker-bots.git'
-    ssh_url: 'git@github.com:aenrione/finance-tracker-bots.git'
-    clone_url: 'https://github.com/aenrione/finance-tracker-bots.git'
-    svn_url: 'https://github.com/aenrione/finance-tracker-bots'
-    homepage: null
-    size: 4
-    stargazers_count: 0
-    watchers_count: 0
-    language: Python
-    has_issues: true
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: []
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: master
+    description: Different Types of tools I use for managing my financial information
+    html_url: https://github.com/aenrione/finance-tracker-bots
+    url: https://api.github.com/repos/aenrione/finance-tracker-bots
+
 -
-    id: 452808564
-    node_id: R_kgDOGv1PdA
+    name: finanzalf
+    description: A budget tracker for personal finance and budget planning.
+    html_url: https://github.com/aenrione/finanzalf
+    url: https://api.github.com/repos/aenrione/finanzalf
+
+-
     name: fintual
-    full_name: aenrione/fintual
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/fintual'
-    description: 'A Ruby client for Fintual.cl Api interface'
-    fork: false
-    url: 'https://api.github.com/repos/aenrione/fintual'
-    forks_url: 'https://api.github.com/repos/aenrione/fintual/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/fintual/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/fintual/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/fintual/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/fintual/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/fintual/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/fintual/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/fintual/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/fintual/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/fintual/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/fintual/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/fintual/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/fintual/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/fintual/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/fintual/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/fintual/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/fintual/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/fintual/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/fintual/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/fintual/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/fintual/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/fintual/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/fintual/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/fintual/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/fintual/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/fintual/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/fintual/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/fintual/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/fintual/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/fintual/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/fintual/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/fintual/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/fintual/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/fintual/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/fintual/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/fintual/deployments'
-    created_at: '2022-01-27T19:01:38Z'
-    updated_at: '2022-06-02T15:20:10Z'
-    pushed_at: '2022-01-27T19:01:41Z'
-    git_url: 'git://github.com/aenrione/fintual.git'
-    ssh_url: 'git@github.com:aenrione/fintual.git'
-    clone_url: 'https://github.com/aenrione/fintual.git'
-    svn_url: 'https://github.com/aenrione/fintual'
-    homepage: ""
-    size: 4
-    stargazers_count: 0
-    watchers_count: 0
-    language: Ruby
-    has_issues: true
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: []
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: master
+    description: A Ruby client for Fintual.cl Api interface
+    html_url: https://github.com/aenrione/fintual
+    url: https://api.github.com/repos/aenrione/fintual
+
 -
-    id: 607816414
-    node_id: R_kgDOJDqK3g
+    name: keyboard-joystick
+    description: A FOSS alternative to GMK keyboard joystick
+    html_url: https://github.com/aenrione/keyboard-joystick
+    url: https://api.github.com/repos/aenrione/keyboard-joystick
+
+-
+    name: nc_money
+    description: Nextcloud app for finance management
+    html_url: https://github.com/aenrione/nc_money
+    url: https://api.github.com/repos/aenrione/nc_money
+
+-
     name: puc-reviews-front
-    full_name: aenrione/puc-reviews-front
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/puc-reviews-front'
-    description: 'Front End y vistas principales proyecto Reseñas PUC'
-    fork: true
-    url: 'https://api.github.com/repos/aenrione/puc-reviews-front'
-    forks_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/puc-reviews-front/deployments'
-    created_at: '2023-02-28T18:28:26Z'
-    updated_at: '2021-09-09T15:55:27Z'
-    pushed_at: '2021-07-25T16:20:05Z'
-    git_url: 'git://github.com/aenrione/puc-reviews-front.git'
-    ssh_url: 'git@github.com:aenrione/puc-reviews-front.git'
-    clone_url: 'https://github.com/aenrione/puc-reviews-front.git'
-    svn_url: 'https://github.com/aenrione/puc-reviews-front'
-    homepage: ""
-    size: 550
-    stargazers_count: 0
-    watchers_count: 0
-    language: null
-    has_issues: false
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: []
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: master
+    description: Front End y vistas principales proyecto Reseñas PUC
+    html_url: https://github.com/aenrione/puc-reviews-front
+    url: https://api.github.com/repos/aenrione/puc-reviews-front
+
 -
-    id: 607816355
-    node_id: R_kgDOJDqKow
     name: puc-reviews-rails
-    full_name: aenrione/puc-reviews-rails
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/puc-reviews-rails'
-    description: 'Backend y API del proyecto Reseñas PUC'
-    fork: true
-    url: 'https://api.github.com/repos/aenrione/puc-reviews-rails'
-    forks_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/puc-reviews-rails/deployments'
-    created_at: '2023-02-28T18:28:17Z'
-    updated_at: '2021-09-09T15:56:00Z'
-    pushed_at: '2021-08-25T14:41:20Z'
-    git_url: 'git://github.com/aenrione/puc-reviews-rails.git'
-    ssh_url: 'git@github.com:aenrione/puc-reviews-rails.git'
-    clone_url: 'https://github.com/aenrione/puc-reviews-rails.git'
-    svn_url: 'https://github.com/aenrione/puc-reviews-rails'
-    homepage: ""
-    size: 755
-    stargazers_count: 0
-    watchers_count: 0
-    language: null
-    has_issues: false
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: []
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: master
+    description: Backend y API del proyecto Reseñas PUC
+    html_url: https://github.com/aenrione/puc-reviews-rails
+    url: https://api.github.com/repos/aenrione/puc-reviews-rails
+
 -
-    id: 512333130
-    node_id: R_kgDOHomVSg
+    name: redox-keyboard
+    description: My build of the Ergonomic split mechanical keyboard
+    html_url: https://github.com/aenrione/redox-keyboard
+    url: https://api.github.com/repos/aenrione/redox-keyboard
+
+-
+    name: ScrapingSofaScore
+    description: null
+    html_url: https://github.com/aenrione/ScrapingSofaScore
+    url: https://api.github.com/repos/aenrione/ScrapingSofaScore
+
+-
     name: suckless
-    full_name: aenrione/suckless
-    private: false
-    owner: {login: aenrione, id: 60358967, node_id: MDQ6VXNlcjYwMzU4OTY3, avatar_url: 'https://avatars.githubusercontent.com/u/60358967?v=4', gravatar_id: "", url: 'https://api.github.com/users/aenrione', html_url: 'https://github.com/aenrione', followers_url: 'https://api.github.com/users/aenrione/followers', following_url: 'https://api.github.com/users/aenrione/following{/other_user}', gists_url: 'https://api.github.com/users/aenrione/gists{/gist_id}', starred_url: 'https://api.github.com/users/aenrione/starred{/owner}{/repo}', subscriptions_url: 'https://api.github.com/users/aenrione/subscriptions', organizations_url: 'https://api.github.com/users/aenrione/orgs', repos_url: 'https://api.github.com/users/aenrione/repos', events_url: 'https://api.github.com/users/aenrione/events{/privacy}', received_events_url: 'https://api.github.com/users/aenrione/received_events', type: User, site_admin: false}
-    html_url: 'https://github.com/aenrione/suckless'
-    description: 'Suckless source code'
-    fork: false
-    url: 'https://api.github.com/repos/aenrione/suckless'
-    forks_url: 'https://api.github.com/repos/aenrione/suckless/forks'
-    keys_url: 'https://api.github.com/repos/aenrione/suckless/keys{/key_id}'
-    collaborators_url: 'https://api.github.com/repos/aenrione/suckless/collaborators{/collaborator}'
-    teams_url: 'https://api.github.com/repos/aenrione/suckless/teams'
-    hooks_url: 'https://api.github.com/repos/aenrione/suckless/hooks'
-    issue_events_url: 'https://api.github.com/repos/aenrione/suckless/issues/events{/number}'
-    events_url: 'https://api.github.com/repos/aenrione/suckless/events'
-    assignees_url: 'https://api.github.com/repos/aenrione/suckless/assignees{/user}'
-    branches_url: 'https://api.github.com/repos/aenrione/suckless/branches{/branch}'
-    tags_url: 'https://api.github.com/repos/aenrione/suckless/tags'
-    blobs_url: 'https://api.github.com/repos/aenrione/suckless/git/blobs{/sha}'
-    git_tags_url: 'https://api.github.com/repos/aenrione/suckless/git/tags{/sha}'
-    git_refs_url: 'https://api.github.com/repos/aenrione/suckless/git/refs{/sha}'
-    trees_url: 'https://api.github.com/repos/aenrione/suckless/git/trees{/sha}'
-    statuses_url: 'https://api.github.com/repos/aenrione/suckless/statuses/{sha}'
-    languages_url: 'https://api.github.com/repos/aenrione/suckless/languages'
-    stargazers_url: 'https://api.github.com/repos/aenrione/suckless/stargazers'
-    contributors_url: 'https://api.github.com/repos/aenrione/suckless/contributors'
-    subscribers_url: 'https://api.github.com/repos/aenrione/suckless/subscribers'
-    subscription_url: 'https://api.github.com/repos/aenrione/suckless/subscription'
-    commits_url: 'https://api.github.com/repos/aenrione/suckless/commits{/sha}'
-    git_commits_url: 'https://api.github.com/repos/aenrione/suckless/git/commits{/sha}'
-    comments_url: 'https://api.github.com/repos/aenrione/suckless/comments{/number}'
-    issue_comment_url: 'https://api.github.com/repos/aenrione/suckless/issues/comments{/number}'
-    contents_url: 'https://api.github.com/repos/aenrione/suckless/contents/{+path}'
-    compare_url: 'https://api.github.com/repos/aenrione/suckless/compare/{base}...{head}'
-    merges_url: 'https://api.github.com/repos/aenrione/suckless/merges'
-    archive_url: 'https://api.github.com/repos/aenrione/suckless/{archive_format}{/ref}'
-    downloads_url: 'https://api.github.com/repos/aenrione/suckless/downloads'
-    issues_url: 'https://api.github.com/repos/aenrione/suckless/issues{/number}'
-    pulls_url: 'https://api.github.com/repos/aenrione/suckless/pulls{/number}'
-    milestones_url: 'https://api.github.com/repos/aenrione/suckless/milestones{/number}'
-    notifications_url: 'https://api.github.com/repos/aenrione/suckless/notifications{?since,all,participating}'
-    labels_url: 'https://api.github.com/repos/aenrione/suckless/labels{/name}'
-    releases_url: 'https://api.github.com/repos/aenrione/suckless/releases{/id}'
-    deployments_url: 'https://api.github.com/repos/aenrione/suckless/deployments'
-    created_at: '2022-07-10T03:10:55Z'
-    updated_at: '2022-07-10T03:11:46Z'
-    pushed_at: '2023-02-23T00:37:56Z'
-    git_url: 'git://github.com/aenrione/suckless.git'
-    ssh_url: 'git@github.com:aenrione/suckless.git'
-    clone_url: 'https://github.com/aenrione/suckless.git'
-    svn_url: 'https://github.com/aenrione/suckless'
-    homepage: null
-    size: 328
-    stargazers_count: 0
-    watchers_count: 0
-    language: C
-    has_issues: true
-    has_projects: true
-    has_downloads: true
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
-    forks_count: 0
-    mirror_url: null
-    archived: false
-    disabled: false
-    open_issues_count: 0
-    license: null
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    topics: []
-    visibility: public
-    forks: 0
-    open_issues: 0
-    watchers: 0
-    default_branch: master
+    description: Suckless source code
+    html_url: https://github.com/aenrione/suckless
+    url: https://api.github.com/repos/aenrione/suckless
+
+-
+    name: webNUT
+    description: Web interface for Network UPS Tools servers.
+    html_url: https://github.com/aenrione/webNUT
+    url: https://api.github.com/repos/aenrione/webNUT
+
+-
+    name: YARG
+    description: YARG (a.k.a. Yet Another Rhythm Game) is a free, open-source, plastic guitar game that is still in development. It supports guitar (five fret), drums (plastic or e-kit), vocals, pro-guitar, and more!
+    html_url: https://github.com/aenrione/YARG
+    url: https://api.github.com/repos/aenrione/YARG
+
