@@ -1,6 +1,6 @@
 ---
 title: "Automating My Linux Setup with Ansible"
-date: 2025-03-13T20:08:17-03:00
+date: 2025-02-11T20:08:17-03:00
 draft: false
 ---
 
