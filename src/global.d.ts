@@ -18,6 +18,7 @@ interface SearchResult {
 	url: string;
 	meta: {
 		title: string;
+		lang?: string;
 	};
 	excerpt: string;
 	content?: string;

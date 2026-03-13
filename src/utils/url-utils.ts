@@ -16,19 +16,40 @@ export function getPostUrlBySlug(slug: string): string {
 	return url(`/posts/${slug}/`);
 }
 
-export function getTagUrl(tag: string): string {
-	if (!tag) return url("/archive/");
-	return url(`/archive/?tag=${encodeURIComponent(tag.trim())}`);
+export function withLanguageSearchParam(
+	rawUrl: string,
+	language?: string,
+): string {
+	if (!language) return rawUrl;
+	const searchParamJoiner = rawUrl.includes("?") ? "&" : "?";
+	return `${rawUrl}${searchParamJoiner}lang=${encodeURIComponent(language)}`;
 }
 
-export function getCategoryUrl(category: string | null): string {
+export function getTagUrl(tag: string, language?: string): string {
+	if (!tag) return withLanguageSearchParam(url("/archive/"), language);
+	return withLanguageSearchParam(
+		url(`/archive/?tag=${encodeURIComponent(tag.trim())}`),
+		language,
+	);
+}
+
+export function getCategoryUrl(
+	category: string | null,
+	language?: string,
+): string {
 	if (
 		!category ||
 		category.trim() === "" ||
 		category.trim().toLowerCase() === i18n(I18nKey.uncategorized).toLowerCase()
 	)
-		return url("/archive/?uncategorized=true");
-	return url(`/archive/?category=${encodeURIComponent(category.trim())}`);
+		return withLanguageSearchParam(
+			url("/archive/?uncategorized=true"),
+			language,
+		);
+	return withLanguageSearchParam(
+		url(`/archive/?category=${encodeURIComponent(category.trim())}`),
+		language,
+	);
 }
 
 export function getDir(path: string): string {

@@ -2,6 +2,7 @@
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import Icon from "@iconify/svelte";
+import { normalizeLanguage } from "@utils/language-utils";
 import { url } from "@utils/url-utils.ts";
 import { onMount } from "svelte";
 import type { SearchResult } from "@/global";
@@ -12,6 +13,7 @@ let result: SearchResult[] = [];
 let isSearching = false;
 let pagefindLoaded = false;
 let initialized = false;
+let currentLanguage = "";
 
 const fakeResult: SearchResult[] = [
 	{
@@ -75,7 +77,10 @@ const search = async (keyword: string, isDesktop: boolean): Promise<void> => {
 			console.error("Pagefind is not available in production environment.");
 		}
 
-		result = searchResults;
+		result = searchResults.filter((item) => {
+			const resultLanguage = normalizeLanguage(item.meta.lang || "");
+			return resultLanguage === currentLanguage;
+		});
 		setPanelVisibility(result.length > 0, isDesktop);
 	} catch (error) {
 		console.error("Search error:", error);
@@ -87,6 +92,11 @@ const search = async (keyword: string, isDesktop: boolean): Promise<void> => {
 };
 
 onMount(() => {
+	const params = new URLSearchParams(window.location.search);
+	const queryLanguage = params.get("lang");
+	const htmlLanguage = document.documentElement.lang;
+	currentLanguage = normalizeLanguage(queryLanguage || htmlLanguage);
+
 	const initializeSearch = () => {
 		initialized = true;
 		pagefindLoaded =

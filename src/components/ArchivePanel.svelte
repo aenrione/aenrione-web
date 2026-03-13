@@ -3,6 +3,7 @@ import { onMount } from "svelte";
 
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
+import { normalizeLanguage } from "../utils/language-utils";
 import { getPostUrlBySlug } from "../utils/url-utils";
 
 export let tags: string[];
@@ -13,6 +14,9 @@ const params = new URLSearchParams(window.location.search);
 tags = params.has("tag") ? params.getAll("tag") : [];
 categories = params.has("category") ? params.getAll("category") : [];
 const uncategorized = params.get("uncategorized");
+const currentLanguage = normalizeLanguage(
+	params.get("lang") || document.documentElement.lang,
+);
 
 interface Post {
 	slug: string;
@@ -20,6 +24,7 @@ interface Post {
 		title: string;
 		tags: string[];
 		category?: string;
+		lang?: string;
 		published: Date;
 	};
 }
@@ -43,6 +48,12 @@ function formatTag(tagList: string[]) {
 
 onMount(async () => {
 	let filteredPosts: Post[] = sortedPosts;
+
+	filteredPosts = filteredPosts.filter(
+		(post) =>
+			normalizeLanguage(post.data.lang || document.documentElement.lang) ===
+			currentLanguage,
+	);
 
 	if (tags.length > 0) {
 		filteredPosts = filteredPosts.filter(
