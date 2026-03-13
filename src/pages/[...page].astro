@@ -1,24 +1,46 @@
 ---
-import type { GetStaticPaths } from "astro";
 import Pagination from "../components/control/Pagination.astro";
 import PostPage from "../components/PostPage.astro";
 import { PAGE_SIZE } from "../constants/constants";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 import { getSortedPosts } from "../utils/content-utils";
+import { getCurrentLanguageFromUrl } from "../utils/language-utils";
 
-export const getStaticPaths = (async ({ paginate }) => {
-	const allBlogPosts = await getSortedPosts();
-	return paginate(allBlogPosts, { pageSize: PAGE_SIZE });
-}) satisfies GetStaticPaths;
-export const prerender = true;
-// https://github.com/withastro/astro/issues/6507#issuecomment-1489916992
+export const prerender = false;
 
-const { page } = Astro.props;
+const currentLanguage = getCurrentLanguageFromUrl(Astro.url);
+const allBlogPosts = await getSortedPosts(currentLanguage);
 
-const len = page.data.length;
+const currentPage = Math.max(
+	1,
+	Number(Array.isArray(Astro.params.page) ? Astro.params.page[0] : Astro.params.page || "1"),
+);
+const lastPage = Math.max(1, Math.ceil(allBlogPosts.length / PAGE_SIZE));
+const start = (currentPage - 1) * PAGE_SIZE;
+const end = start + PAGE_SIZE;
+const data = allBlogPosts.slice(start, end);
+
+const buildPageUrl = (pageNum: number) => {
+	const basePath = pageNum === 1 ? "/" : `/${pageNum}/`;
+	const url = new URL(Astro.url);
+	url.searchParams.set("lang", currentLanguage);
+	return `${basePath}${url.search}`;
+};
+
+const page = {
+	data,
+	currentPage,
+	lastPage,
+	url: {
+		prev: currentPage > 1 ? buildPageUrl(currentPage - 1) : undefined,
+		next: currentPage < lastPage ? buildPageUrl(currentPage + 1) : undefined,
+	},
+};
+
+const len = data.length;
 ---
 
 <MainGridLayout>
-    <PostPage page={page}></PostPage>
-    <Pagination class="mx-auto onload-animation" page={page} style={`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`}></Pagination>
+    <PostPage page={page} language={currentLanguage}></PostPage>
+    <Pagination class="mx-auto onload-animation" page={page} lang={currentLanguage} style={`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`}></Pagination>
 </MainGridLayout>
