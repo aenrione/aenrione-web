@@ -8,6 +8,7 @@ tags:
 - React-Native
 - Ruby-on-Rails
 lang: "en"
+category: "Reflexiones"
 ---
 # Context
 

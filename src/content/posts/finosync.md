@@ -10,6 +10,7 @@ tags:
 - chile
 - fintech
 lang: "es"
+category: "Reflexiones"
 ---
 
 # Construyendo FiNoSync: Mi app de finanzas personales para la realidad chilena

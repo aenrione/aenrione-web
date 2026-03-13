@@ -4,6 +4,7 @@ published: 2025-02-11T20:08:17-03:00
 draft: false
 description: "Como desarrollador, a menudo me encuentro trabajando en múltiples máquinas y entornos. Mantener una configuración consistente en cada una de ellas pu"
 lang: "es"
+category: "Guías"
 tags:
 - DevOps
 - Linux

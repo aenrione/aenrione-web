@@ -6,6 +6,7 @@ tags:
 - React-Native
 - Ruby-on-Rails
 lang: "es"
+category: "Reflexiones"
 ---
 # Contexto
 

@@ -3,6 +3,7 @@ title: "The Art of Blogging: Improve Your Style with LLM's and LangChain"
 published: 2025-03-13T20:08:17-03:00
 draft: false
 lang: "en"
+category: "Guías"
 tags:
 - AI
 - LLM

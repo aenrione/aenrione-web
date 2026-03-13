@@ -4,6 +4,7 @@ published: 2025-02-11T20:08:17-03:00
 draft: false
 description: "# Automating My Linux Setup with Ansible  As a developer, I often find myself working on multiple machines and environments. Maintaining a consistent"
 lang: "en"
+category: "Guías"
 tags:
 - DevOps
 - Linux

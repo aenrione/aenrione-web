@@ -4,6 +4,7 @@ published: 2025-03-13T20:08:17-03:00
 draft: false
 description: "Imagina este escenario: Acabas de pasar una larga jornada de trabajo, lidiando con códigos, errores y bugs que parecen tener vida propia. Te apetece c"
 lang: "es"
+category: "Guías"
 tags:
 - AI
 - LLM
