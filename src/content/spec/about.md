@@ -1,9 +1,10 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# Sobre mí
 
-::github{repo="saicaca/fuwari"}
+Hola, soy **Alfredo Enrione**. Soy ingeniero de software y actualmente trabajo en **Fintoc**, enfocado en infraestructura y DevOps.
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+Me motiva la computación en todas sus capas — desde el hardware hasta el software — y disfruto especialmente la automatización, los proyectos open source y estar siempre aprendiendo y al día.
+
+En este espacio comparto ideas, proyectos y aprendizajes que voy encontrando en el camino.
+
+- GitHub: https://github.com/aenrione
+- LinkedIn: https://www.linkedin.com/in/aenrione/
