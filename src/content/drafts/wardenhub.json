@@ -1,0 +1,36 @@
+{
+  "id": "f1a2b3c4-d5e6-7890-abcd-ef1234567890",
+  "slug": "wardenhub",
+  "title_en": "WardHub: Periodic Security Auditing for Your Homelab",
+  "title_es": "WardHub: auditoría de seguridad periódica para tu homelab",
+  "description": "Auditoría de seguridad programada para homelabs: agentes Python en cada host, métricas a Prometheus vía Pushgateway, alertas por Alertmanager. Hub-and-spoke para Proxmox, Docker, LXC y Linux plano.",
+  "tags": [
+    "homelab",
+    "seguridad",
+    "proxmox",
+    "docker",
+    "prometheus",
+    "python",
+    "open-source"
+  ],
+  "status": "idea",
+  "source_url": "https://github.com/aenrione/wardenhub",
+  "lang": [
+    "es",
+    "en"
+  ],
+  "brief": {
+    "identidad": "Dev y self-hoster que construyó la herramienta para resolver su propio problema: no había forma sencilla de saber si su homelab estaba endurecido o si algo había retrocedido.",
+    "objetivo": "Atraer a otros self-hosters y devs con infraestructura casera; posicionarse como alguien que toma en serio la seguridad sin paranoia; generar tráfico SEO en nichos de homelab/Proxmox.",
+    "audiencia": "Self-hosters con Proxmox, Docker o LXC en casa. Saben Linux, probablemente tienen algún VPS o servidor propio, pero no tienen un equipo de seguridad ni un SIEM. Quieren saber que su setup no es un desastre sin tener que auditarlo a mano cada semana.",
+    "formato": "Post técnico de 1.200–1.600 palabras. Abre con el problema (¿cuándo fue la última vez que revisaste si algún contenedor tuyo corre como root?). Explica la arquitectura hub-and-spoke con el diagrama en texto. Muestra un ejemplo de config del agente y una alerta real. Cierra con instrucciones de instalación."
+  },
+  "key_points": [],
+  "created_at": "2026-03-28T11:55:00-03:00",
+  "approved_at": null,
+  "published_at": null,
+  "hugo_file_en": "content/en/posts/wardenhub.md",
+  "hugo_file_es": "content/es/posts/wardenhub.md",
+  "content_es": "",
+  "content_en": ""
+}

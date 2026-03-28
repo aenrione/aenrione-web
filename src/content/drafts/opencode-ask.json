@@ -1,0 +1,36 @@
+{
+  "id": "a2b3c4d5-e6f7-8901-bcde-f01234567891",
+  "slug": "opencode-ask",
+  "title_en": "opencode-ask: Query Your Local AI Server From Any Terminal",
+  "title_es": "opencode-ask: consulta tu servidor de IA local desde cualquier terminal",
+  "description": "CLI liviana en Bun para hablarle a un servidor opencode local. `ask 'pregunta'` desde cualquier terminal, con modo `-1` para pipes, streaming, multi-modelo y copia al clipboard. La diferencia entre un asistente que existe y uno que usas.",
+  "tags": [
+    "cli",
+    "bun",
+    "opencode",
+    "ia",
+    "terminal",
+    "developer-tools",
+    "open-source"
+  ],
+  "status": "idea",
+  "source_url": "https://github.com/aenrione/opencode-ask",
+  "lang": [
+    "es",
+    "en"
+  ],
+  "brief": {
+    "identidad": "Dev que usa opencode en el día a día y construyó la glue layer que faltaba: no quería abrir otra ventana para hacer una consulta rápida mientras ya estaba en la terminal.",
+    "objetivo": "Mostrar una herramienta que mejora el workflow de dev con IA local; atraer a devs que ya usan opencode o herramientas similares; post corto y directo que va al grano.",
+    "audiencia": "Devs que ya tienen opencode o algún LLM server local corriendo. Viven en la terminal. Quieren menos fricción entre pensar una pregunta y obtener la respuesta.",
+    "formato": "Post técnico corto y ágil, 800–1.000 palabras. Abre con el problema de fricción (tener que cambiar de contexto para hacer una consulta). Muestra los 3 casos de uso más útiles con ejemplos de código reales (`ask -1`, pipes, daemon). Cierra con instalación en tres pasos."
+  },
+  "key_points": [],
+  "created_at": "2026-03-28T11:55:00-03:00",
+  "approved_at": null,
+  "published_at": null,
+  "hugo_file_en": "content/en/posts/opencode-ask.md",
+  "hugo_file_es": "content/es/posts/opencode-ask.md",
+  "content_es": "",
+  "content_en": ""
+}
