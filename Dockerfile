@@ -14,9 +14,14 @@ FROM node:20-alpine AS runner
 
 WORKDIR /app
 
+RUN corepack enable
+
 ENV NODE_ENV=production
 ENV HOST=0.0.0.0
 ENV PORT=4321
+
+COPY package.json pnpm-lock.yaml ./
+RUN pnpm install --frozen-lockfile --prod
 
 COPY --from=builder /app/dist ./dist
 
